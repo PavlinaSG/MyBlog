@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Italianno|Rufina');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 25px;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(144, 76, 119, 0.7);
+}
+
+nav ul {
+    width: 400px;
+    margin: 0 auto;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+li a  {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-family: Cinzel, sans-serif;
+}
+
+li a:hover {
+    font-weight: bolder;
+}
+
+section.content {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(255, 236, 227);
+    padding-top: 150px;
+}
+
+section.content p {
+    font-family: Rufina, sans-serif;
+}
+
+section.content div.stories {
+    width: 60%;
+    margin: 0 auto;
+}
+
+section.content div.stories h1 {
+    text-align: center;
+    font-family: "Italianno", sans-serif;
+    font-size: 55px;
+    color: #484848;
+    font-weight: 400;
+}
+
+section.content div.stories img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section.content div.stories p {
+    text-align: justify;
+}
+
+div.linebreak  {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+footer {
+    height: 100px;
+    background-color: #484848;
+}
