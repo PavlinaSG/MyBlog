@@ -98,6 +98,16 @@ div.share-box a {
 
 div.share-box a i {
     margin: 20px;
-    color: rgba(144, 76, 119, 1);
+}
 
+.fa-facebook-f {
+    color: #3b5998;
+}
+
+.fa-pinterest-p {
+    color: #bd081c;
+}
+
+.fa-twitter {
+    color: #00aced;
 }
