@@ -83,6 +83,7 @@ div.linebreak  {
 footer {
     height: 100px;
     background-color: #A07059;
+    opacity: 0.6;
 }
 
 div.share-box {
@@ -111,3 +112,11 @@ div.share-box a i {
 .fa-twitter {
     color: #00aced;
 }
+
+.readmore {
+    color: #7a7a7a;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: Cinzel, sans-serif;
+}
+
