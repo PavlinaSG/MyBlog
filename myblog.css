@@ -46,25 +46,32 @@ section.content p {
     font-family: Rufina, sans-serif;
 }
 
-section.content div.stories {
+section.content article.stories {
     width: 60%;
     margin: 0 auto;
 }
 
-section.content div.stories h1 {
-    text-align: center;
+
+section.content article.stories h1 a {
+
     font-family: "Italianno", sans-serif;
     font-size: 55px;
     color: #484848;
     font-weight: 400;
+    text-decoration: none;
 }
 
-section.content div.stories img {
+section.content article.stories h1 {
+    text-align: center;
+}
+
+
+section.content article.stories img {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-section.content div.stories p {
+section.content article.stories p {
     text-align: justify;
 }
 
@@ -76,5 +83,5 @@ div.linebreak  {
 
 footer {
     height: 100px;
-    background-color: #484848;
+    background-color: #A07059;
 }
