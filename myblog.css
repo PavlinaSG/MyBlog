@@ -88,7 +88,7 @@ footer {
 
 div.share-box {
 
-    width: 170px;
+    width: 230px;
     margin: 0 auto;
     border-radius: 5px;
 }
@@ -104,6 +104,11 @@ div.share-box a i {
 .fa-facebook-f {
     color: #3b5998;
 }
+
+.fa-instagram {
+    color: #962fbf;
+}
+
 
 .fa-pinterest-p {
     color: #bd081c;
