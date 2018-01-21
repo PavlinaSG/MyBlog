@@ -30,6 +30,10 @@ li a  {
     font-family: Cinzel, sans-serif;
 }
 
+nav ul li a.home {
+    font-weight: bolder;
+}
+
 li a:hover {
     font-weight: bolder;
 }
