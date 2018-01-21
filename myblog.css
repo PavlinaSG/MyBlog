@@ -67,8 +67,7 @@ section.content article.stories h1 {
 
 
 section.content article.stories img {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
 }
 
 section.content article.stories p {
@@ -84,4 +83,21 @@ div.linebreak  {
 footer {
     height: 100px;
     background-color: #A07059;
+}
+
+div.share-box {
+
+    width: 170px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+div.share-box a {
+    text-decoration: none;
+}
+
+div.share-box a i {
+    margin: 20px;
+    color: rgba(144, 76, 119, 1);
+
 }
