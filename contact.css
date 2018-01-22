@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Italianno|Rufina');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 25px;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(144, 76, 119, 0.7);
+}
+
+nav ul {
+    width: 400px;
+    margin: 0 auto;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+li a  {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-family: Cinzel, sans-serif;
+}
+
+nav ul li a.contact {
+    font-weight: bolder;
+}
+
+li a:hover {
+    font-weight: bolder;
+}
+
+section.content {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(255, 236, 227);
+    padding-top: 150px;
+}
+
+footer {
+    height: 100px;
+    background-color: #A07059;
+    opacity: 0.6;
+}
+
+button {
+   background-color: transparent;
+   border: 0;
+}
+
+
+.form-container {
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 700px;
+}
+
+.form-container {
+    margin-bottom: 30px;
+}
+
+div.form-group {
+    margin: 0 auto;
+    width: 300px;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 350px;
+}
+
+form input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.form-group-textarea {
+    width: 350px;
+    margin: 0 auto;
+}
+
+textarea {
+    border-radius: 5px;
+    width: 350px;
+
+}
+
+form p {
+    margin: 5px;
+    text-align: center;
+    font-family: "Italianno", sans-serif;
+    font-size: 27px;
+}
