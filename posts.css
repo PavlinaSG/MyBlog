@@ -32,6 +32,10 @@ li a  {
     font-family: Cinzel, sans-serif;
 }
 
+nav img {
+    float: left;
+}
+
 .search-container {
     width: 1420px;
     margin: 0 auto;

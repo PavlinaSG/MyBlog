@@ -18,6 +18,10 @@ nav ul {
     margin: 0 auto;
 }
 
+nav img {
+    float: left;
+}
+
 li {
     display: inline-block;
     list-style-type: none;
