@@ -130,6 +130,7 @@ form input {
     padding: 10px;
     border-radius: 5px;
     width: 250px;
+    outline: 0;
 }
 
 .form-group-textarea {
@@ -140,7 +141,7 @@ form input {
 textarea {
     border-radius: 5px;
     width: 350px;
-
+    outline: 0;
 }
 
 form p {

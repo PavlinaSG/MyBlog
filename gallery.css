@@ -88,26 +88,95 @@ section.content {
     padding-top: 150px;
 }
 
+div.linebreak  {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
 section.content div.gallery-content {
-    width: 85%;
+    width: 95%;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 58px -16px rgba(97,97,97,1);
+    -moz-box-shadow: 0px 0px 58px -16px rgba(97,97,97,1);
+    box-shadow: 0px 0px 58px -16px rgba(97,97,97,1);
+    border-radius: 10px;
+}
+
+section.content div.gallery-content {
+    margin-bottom: 30px;
+}
+
+.image-container {
+    padding-bottom: 25px;
+    width: 95%;
     margin: 0 auto;
 }
 
 section.content div.gallery-content div.image-box {
-    width: 31%;
+    width: 31.5%;
     margin: 0 auto;
     display: inline-block;
+    height: 400px;
+
 }
 
 section.content div.gallery-content div.image-box {
-    margin-bottom: 5px;
-    margin-left: 5px;
-    margin-top: 5px;
+    margin-left: 7px;
+    margin-top: 25px;
+    margin-right: 7px;
 }
 
 section.content div.gallery-content div.image-box img {
     width: 100%;
-    background-color: black;
+    border-radius: 80px;
+}
+
+section.content div.gallery-content div.image-box img:hover {
+    -webkit-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.75);
+}
+
+.image-box h3 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.image-box h3 a {
+    text-decoration: none;
+    color: black;
+    font-family: "Italianno", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.image-box h3 a:hover {
+    text-decoration: overline;
+
+}
+
+.page-navigation {
+    text-align: center;
+}
+
+.page-navigation span {
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.page-navigation a {
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.page-navigation a:hover {
+    -webkit-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.75);
 }
 
 footer {
