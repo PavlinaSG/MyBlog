@@ -30,6 +30,11 @@ li a  {
     font-family: Cinzel, sans-serif;
 }
 
+.search-container {
+    width: 1420px;
+    margin: 0 auto;
+}
+
 .search {
     position: relative;
     top: -30px;
