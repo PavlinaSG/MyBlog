@@ -49,7 +49,7 @@ li a  {
 }
 
 .search:focus {
-    width: 71.2%;
+    width: 1010px;
 }
 
 .search:hover {
@@ -80,7 +80,7 @@ li a:hover {
 }
 
 section.content {
-    width: 75%;
+    width: 1060px;
     height: 100%;
     margin: 0 auto;
     background-color: rgb(255, 236, 227);
@@ -92,7 +92,7 @@ section.content p {
 }
 
 section.content article.stories {
-    width: 60%;
+    width: 640px;
     margin: 0 auto;
 }
 
@@ -121,7 +121,7 @@ section.content article.stories p {
 }
 
 div.linebreak  {
-    width: 80%;
+    width: 505px;
     margin: 0 auto;
     padding-bottom: 100px;
 }

@@ -50,7 +50,7 @@ li a  {
 }
 
 .search:focus {
-    width: 71.2%;
+    width: 1010px;
 }
 
 .search:hover {
@@ -81,7 +81,7 @@ li a:hover {
 }
 
 section.content {
-    width: 75%;
+    width: 1060px;
     height: 100%;
     margin: 0 auto;
     background-color: rgb(255, 236, 227);
@@ -89,7 +89,7 @@ section.content {
 }
 
 div.linebreak  {
-    width: 50%;
+    width: 505px;
     margin: 0 auto;
     padding-bottom: 50px;
 }
