@@ -117,6 +117,7 @@ section.content article.stories img {
 
 section.content article.stories p {
     text-align: justify;
+    width: 650px;
 }
 
 div.linebreak  {
@@ -178,4 +179,8 @@ footer {
     background-color: #A07059;
     opacity: 0.6;
     width: 100%;
+}
+
+.footer-share-box .fa-facebook-square {
+    font-size: 30px;
 }
