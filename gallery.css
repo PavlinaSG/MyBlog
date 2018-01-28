@@ -230,7 +230,7 @@ footer {
 }
 
 footer .footer-share-box {
-    width: 300px;
+    width: 270px;
     margin: 0 auto;
     padding-top: 55px;
 }
@@ -242,5 +242,5 @@ footer .footer-share-box a {
 footer .footer-share-box a i {
     opacity: 1;
     margin: 20px;
-    font-size: 40px;
+    font-size: 30px;
 }
