@@ -14,13 +14,15 @@ nav {
 }
 
 nav ul {
-    width: 290px;
+    width: 310px;
     margin: 0 auto;
 }
 
 li {
     display: inline-block;
     list-style-type: none;
+    text-align: center;
+    width: 95px;
 }
 
 li a  {
