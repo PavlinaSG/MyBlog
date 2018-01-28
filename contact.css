@@ -101,11 +101,6 @@ section.content {
     padding-top: 150px;
 }
 
-footer {
-    height: 100px;
-    background-color: #A07059;
-    opacity: 0.6;
-}
 
 button {
    background-color: transparent;
@@ -162,4 +157,58 @@ form p {
     text-align: center;
     font-family: "Italianno", sans-serif;
     font-size: 27px;
+}
+
+.fa-facebook-f {
+    color: #3b5998;
+}
+
+.fa-facebook-f:hover {
+    color: black;
+}
+
+.fa-instagram {
+    color: #962fbf;
+}
+
+.fa-instagram:hover {
+    color: black;
+}
+
+.fa-pinterest-p {
+    color: #bd081c;
+}
+
+.fa-pinterest-p:hover {
+    color: black;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-twitter:hover {
+    color: black;
+}
+
+footer {
+    height: 173px;
+    background-color: rgba(160, 112, 89, 0.6);
+    width: 100%;
+}
+
+footer .footer-share-box {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+
+footer .footer-share-box a {
+    text-decoration: none;
+}
+
+footer .footer-share-box a i {
+    opacity: 1;
+    margin: 20px;
+    font-size: 40px;
 }

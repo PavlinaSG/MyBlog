@@ -187,12 +187,23 @@ div.share-box a i {
 }
 
 footer {
-    height: 100px;
-    background-color: #A07059;
-    opacity: 0.6;
+    height: 173px;
+    background-color: rgba(160, 112, 89, 0.6);
     width: 100%;
 }
 
-.footer-share-box .fa-facebook-square {
-    font-size: 30px;
+footer .footer-share-box {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+
+footer .footer-share-box a {
+    text-decoration: none;
+}
+
+footer .footer-share-box a i {
+    opacity: 1;
+    margin: 20px;
+    font-size: 40px;
 }
